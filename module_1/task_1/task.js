@@ -42,3 +42,9 @@ function divide(a, b, base = DEFAULT_BASE) {
 console.log(add('10', '10', 'decimal')); // 20
 console.log(add('4', '8', 'hexadecimal')); // C
 console.log(add('10', '10', 'binary')); // 100
+let tenSqureInDecimal = multiply('10', '10', 'decimal');
+let fiveSqureInHexdecimal = multiply('5', '5', 'hexadecimal');
+let threeSqureInBinary = multiply('11', '11', 'binary');
+console.log(tenSqureInDecimal); // 100
+console.log(fiveSqureInHexdecimal); // 19
+console.log(threeSqureInBinary); // 1001
